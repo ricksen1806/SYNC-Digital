@@ -154,13 +154,13 @@ header div{
 /* At the very bottom of sync.css */
 @media (max-width: 600px) {
     .header div{
-        gap: 3px;
+        gap: 1px;
     }
     .icon img{
         margin-left: 5px;
     }
     .nav{
-        gap: 15px;
+        gap: 10px;
     }
 
     
