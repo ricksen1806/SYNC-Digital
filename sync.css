@@ -49,7 +49,6 @@ display: none;
 }
 
 .home{
-    width: 100vw;
     height: 28vh;
     margin-top: 55px;
     background-color: black;
@@ -78,6 +77,7 @@ display: none;
     justify-content: center;
     display: flex;
     gap: 1.5%;
+    margin-bottom: 20px;
     
 }
 .servicehed{
@@ -107,4 +107,58 @@ display: none;
 .servicedes p{
     margin-top: 0%;
     padding-top: 0%;
+}
+.portfolio{
+    background-color: #eef9fd;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.work{
+    width: 80vw;
+    display: flex;
+    gap: 5%;
+    margin: auto;
+}
+.work img{
+    width: 50%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.about{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.about img{
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.contact{
+    background-color: #eef9fd;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    width: auto;
+    height: 5vh;
+    background-color: #0c1e36;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    margin: 0%;
 }
